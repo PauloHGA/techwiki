@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWiki</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/icon.png">
+    <style>
+        .logo figure h1{
+        margin: 0px;
+        font-weight: 1200;
+        }
+
+        #cpt{
+    background-color: black;
+    color: rgb(200, 229, 248);
+}
+    
+    </style>
+
+</head>
+<body>
+
+    <header>   
+        <div class="logo" alt="Logotipo Techwiki">
+            <figure>
+            <img src="assets/images/logo.png" width="100"/>
+            <h1>TECHWIKI</h1>
+            </figure>
+        </div>
+    </header>
+
+    
+
+<!-- Main Menu -->
+
+    <nav class="bar">
+        <ul>
+            <li><a id="cpt" title="Criptografia" href="cript.html">Criptografia</a></li>
+            <li><a id="rd" title="Redes" href="redes.html">Redes</a></li>
+            <li><a id="pp" title="Pagina Principal" href="index.html">Techwiki</a></li>
+            <li><a id="ti" title="Tecnologias da Informação" href="ti.html">Tec. da Informação</a></li>
+            <li><a id="lx" title="Linux" href="linux.html">Linux</a></li>
+        </ul>
+    </nav>
+
+
+
+    <div class="content">
+
+<!-- Articles Menu -->
+
+        <nav class="sidebar">
+            <h2>Artigos</h2>      
+            <ul>
+                <li><a href="#">EM BREVE</a></li>
+                <li><a href="#">EM BREVE</a></li>
+            </ul>
+        </nav>
+
+<!-- main -->
+
+        <main class="main">
+            <h1 class="title" id="inicio">Criptografia</h1>
+            <br>
+            <P><strong>Criptografia</strong> (<i>em grego: kryptós, "escondido", e gráphein, "escrita"</i>) é uma área da criptologia que estuda e prática princípios e técnicas para comunicação segura na presença de terceiros, chamados "adversários". Mas geralmente, a criptografia refere-se à construção e análise de protocolos que impedem terceiros, ou o público, de lerem mensagens privadas. Muitos aspectos em segurança da informação, como confidencialidade, integridade de dados, autenticação e não-repúdio são centrais à criptografia moderna. A criptografia moderna existe na interseção das disciplinas de matemática, ciência da computação, engenharia elétrica, ciência da comunicação e física. Aplicações de criptografia incluem comércio eletrônico, cartões de pagamento baseados em chip, moedas digitais, senhas de computadores e comunicações militares.</P>
+            <p>Uma informação não-cifrada que é enviada de uma pessoa (<i>ou organização</i>) para outra é chamada de "texto claro" (plaintext). Cifragem é o processo de conversão de um texto claro para um código cifrado e decifragem é o processo contrário, de recuperar o texto original a partir de um texto cifrado. De fato, o estudo da criptografia cobre bem mais do que apenas cifragem e decifragem. É um ramo especializado da teoria da informação com muitas contribuições de outros campos da matemática e do conhecimento, incluindo autores como Maquiavel, Sun Tzu e Karl von Clausewitz. A criptografia moderna é basicamente formada pelo estudo dos algoritmos criptográficos que podem ser implementados em computadores.</p>
+            <p>A criptografia tem sido de interesse para as agências de coleta de informações e de aplicação da lei, bem como para defensores de direitos civis. Há uma longa história de questões legais controversas, especialmente desde que o barateamento da computação possibilitou o acesso generalizado à criptografia de alta qualidade.</p>
+            <h2 class="title" id="historia">História</h2><br>
+            <p>Antigamente, a cifragem era utilizada na troca de mensagens, sobretudo em assuntos ligados à guerra (<i>no intuito de o inimigo não descobrir a estratégia do emissor da mensagem, caso se apoderasse dela</i>), ao amor (<i>para que os segredos amorosos não fossem descobertos pelos familiares</i>) e à diplomacia (<i>para que facções rivais não estragassem os planos de acordos diplomáticos entre nações</i>). O primeiro uso documentado da criptografia foi em torno de 1900 A.c., no Egito, quando um escriba usou hieróglifos fora do padrão numa inscrição.</p>
+            <p>Entre <u>600 a.C. e 500 a.C.</u>, os hebreus utilizavam a cifra de substituição simples (de fácil reversão e fazendo uso de cifragem dupla para obter o texto original), sendo monoalfabético e monogrâmica (os caracteres são trocados um a um por outros), e com ela escreveram o Livro de Jeremias.</p>
+            <p>O chamado "Codificador de Júlio César" ou "Cifra de César" que apresentava uma das técnicas mais clássicas de criptografia, é um exemplo de substituição que, simplesmente, substitui as letras do alfabeto avançando três casas. O autor da cifragem trocava cada letra por outra situada a três posições à frente no alfabeto. Segundo o autor, esse algoritmo foi responsável por enganar muitos inimigos do Império Romano; no entanto, após ter sido descoberta a chave, como todas, perdeu sua funcionalidade.</p>
+            <p>Destacam-se os estudos de Blaise de Vigenère que constituíram um método muito interessante; é a cifra de Vigenère que utiliza a substituição de letras. Tal processo consiste na sequência de várias cifras (como as de César) com diferentes valores de deslocamento alfanumérico. A partir desse período, Renascença, a criptologia começou a ser seriamente estudada no Ocidente e, assim, diversas técnicas foram utilizadas e os antigos códigos monoalfabéticos foram, aos poucos, sendo substituídos por polialfabéticos.</p>
+            <p>Dos <u>anos 700 a 1200</u>, são relatados incríveis estudos estatísticos, em que se destacam expoentes como al-Khalil, Alquindi, Ibn Dunainir e Ibn Adlan, que marcaram sua época. Na Idade Média, a civilização árabe-islâmica contribuiu muito para os processos criptográficos, sobretudo quanto à criptoanálise (análise da codificação, a procura de padrões que identificassem mensagens camufladas por códigos).</p>
+            <p>Na Idade Moderna, merecem destaque o holandês Kerckhoff e o alemão Kasiski. Modernamente, em 1918, Arthur Scherbius desenvolveu uma máquina de criptografia chamada Enigma, utilizada amplamente pela marinha de guerra alemã em 1926, como a principal forma de comunicação.</p>
+            <p>Em <u>1928</u>, o exército alemão construiu uma versão conhecida como "Enigma G", que tinha como garantidor de segurança a troca periódica mensal de suas chaves. Essa máquina tinha como diferencial ser elétrico-mecânica, funcionando com três (inicialmente) a oito rotores. Aparentava ser uma máquina de escrever, mas quando o usuário pressionava uma tecla, o rotor da esquerda avançava uma posição, provocando a rotação dos demais rotores à direita, sendo que esse movimento dos rotores gerava diferentes combinações de encriptação.</p>
+            <p>Assim, a codificação da mensagem pelas máquinas "Enigma" era de muito difícil decodificação, uma vez que, para isso, era necessário ter outra máquina dessas e saber qual a chave (esquema) utilizada para realizar a codificação.</p>
+            <p>A Colossus surgiu do esforço de engenharia reversa das forças aliadas em decriptar as mensagens da marinha e do exército alemão, só logrando efetivo êxito após se ter conseguido uma máquina Enigma alemã (furtada). Tais equipamentos foram, inicialmente, desenvolvidos como máquinas de decriptação, mas depois passaram a codificar mensagens das forças aliadas.</p>
+            <p>Depois, surgiram outras máquinas fisicamente semelhantes à Enigma (pareciam com antigas máquinas de escrever), porém foram aperfeiçoadas de forma a dificultar o mais possível a decriptação por quem não as possuísse.</p>
+            <p>Devido aos esforços de guerra, a criptografia passou a ser largamente utilizada. Em 1948, Claude Shannon desenvolveu a Teoria Matemática da Comunicação, que permitiu grandes desenvolvimentos nos padrões de criptografia e na criptoanálise.</p>
+            <p>Durante a chamada "Guerra Fria", entre Estados Unidos e União Soviética, foram criados e utilizados diversos métodos a fim de esconder mensagens a respeito de estratégias e operações, criptografadas com diferentes métodos e chaves.</p>
+            <p>Diffie e Hellman revolucionaram os sistemas de criptografia existentes até 1976, a partir do desenvolvimento de um sistema de criptografia de chave pública que foi aperfeiçoado por pesquisadores do MIT e deu origem ao algoritmo RSA.</p>
+            <p>Além dos avanços da criptografia, a criptoanálise se desenvolveu muito com os esforços de se descobrir padrões e chaves, além da diversidade dos canais de propagação das mensagens criptografadas. Desses esforços, surgiram diversos tipos de criptografia, tais como por chave simétrica, por chave assimétrica, por hash e até a chamada criptografia quântica, que se encontra, hoje, em desenvolvimento.</p>
+            <p>Durante muito tempo, o termo referiu-se exclusivamente à cifragem, o processo de converter uma informação comum (texto claro) em algo não-inteligível; o qual chama-se texto cifrado. A decifragem é a tarefa contrária, dado uma informação não-inteligível convertê-la em texto claro. No uso coloquial, o termo "código" é usado para referir-se a qualquer método de cifragem ou similar. Em criptografia, "código" tem um significado mais específico, refere-se a substituição de uma unidade significativa (i.e., o significado de uma palavra ou frase) pelo substituto equivalente. Códigos não são mais usados na criptografia moderna, visto que o uso de cifras se tornou mais prático e seguro, como também melhor adaptado aos computadores.</p>
+            <p>Nos dias atuais, onde grande parte dos dados é digital, sendo representados por bits, o processo de criptografia é basicamente feito por algoritmos que fazem o embaralhamento dos bits desses dados a partir de uma determinada chave ou par de chaves, dependendo do sistema criptográfico escolhido. Atualmente, a criptografia é amplamente utilizada na Web, em segurança a fim de autenticar os usuários para lhes fornecer acesso, na proteção de transações financeiras e em redes de comunicação.</p>
+            <br><br>       
+        
+        </main>
+
+        <div class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="#inicio">INÍCIO</a></li>
+                <li><a href="#historia">HISTÓRIA</a></li>
+            </ul>
+        </div>
+    </div>
+
+<!-- footer -->
+  
+    <footer class="footer">
+        Este texto é disponibilizado nos termos da licença <a target="_blank" href="https://creativecommons.org/licenses/by-sa/3.0/deed.pt">‎ Atribuição-CompartilhaIgual 3.0 Não Adaptada (CC BY-SA 3.0) da Creative Commons</a>; pode estar sujeito a condições adicionais. Para mais detalhes, consulte as <a target="_blank" href="https://foundation.wikimedia.org/wiki/Terms_of_Use/pt-br">‎ condições de utilização</a>.
+
+
+    </footer>
+</body>
+</html>

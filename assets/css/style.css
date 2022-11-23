@@ -1,0 +1,195 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f7fc;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:rgb(36, 36, 248); text-decoration: none;}
+
+.logo figure{
+    padding-top: 5px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: #d7e8fd
+}
+
+/* Bar menu*/
+
+.bar {
+    background-color: #edf4fd;
+    border-bottom: solid 1px #cdcdcd;
+    padding-left: 65px;
+
+
+}
+
+.bar ul{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 1px;
+
+}
+
+.bar ul li{
+    list-style: none;
+    padding-right: 10px;
+
+}
+
+.bar ul li a{
+    border-radius: 8px ;
+    padding: 8px ;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    transition-duration: 0.7s;
+}
+.bar ul li a:hover{
+    background-color: black;
+    color: rgb(200, 229, 248);
+
+}
+
+/* content */
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    background-color: #f3fafd;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* main */
+.main{
+    background-color: #f3fafd;
+}
+/* anchors */
+
+.anchors {
+    background-color: #f1f7fc;
+    border-left: solid 1px #cdcdcd;
+    border-right: solid 0px #cdcdcd;
+    padding-left: 45px;
+    padding-right: 15px;
+}
+
+.anchors ul li a{
+    display: flex;
+    border: 1px solid black ;
+    justify-content: center;
+    border-radius: 7px;
+    font-weight: 600;
+    background-color: rgb(200, 229, 248);
+    color: black;
+    transition-duration: 0.4s
+}
+
+.anchors ul li{
+    padding: 1px;
+}
+
+.anchors h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.anchors ul li a:hover{
+    background-color: black;
+    color: rgb(200, 229, 248);
+}
+
+/* sidebar */
+
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+    border-left: solid 0px #cdcdcd;
+    padding-right: 45px;
+    padding-left: 15px;
+    background-color: #f1f7fc;
+}
+
+.sidebar ul li a{
+    display: flex;
+    border: 1px solid black ;
+    justify-content: center;
+    font-weight: 600;
+    border-radius: 7px;
+    background-color: rgb(200, 229, 248);
+    color: black;
+    transition-duration: 0.4s
+}
+
+.sidebar ul li{
+    padding: 1px;
+}
+
+.sidebar h2{
+    display: flex;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.sidebar ul li a:hover{
+    background-color: black;
+    color: rgb(200, 229, 248);
+}
+
+
+/* figure */
+
+figure {
+    text-align: center;
+}
+
+.footer {
+    min-height: 25px;
+    border-top: solid 1px #cdcdcd;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    padding: 8px;
+    background-color: #ebedee;
+}
+
+/* Teste */
+.logo figure h1{
+    margin: 0px;
+    font-weight: 1200;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #a2a9b1;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+/* scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#86c4ff), to(#0890ff));  
+}
+
+::-webkit-scrollbar-track{
+    background: #eee;
+}
